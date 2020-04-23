@@ -1,0 +1,13 @@
+p, admin, /*, *
+p, paraplaner, /paraplaner/*, *
+p, adviser, /adviser/*, *
+p, vp, /vp/*, *
+p, executive, /executive/*, *
+p, manager, /manager/*, *
+p, ceo, /ceo/*, *
+g, adviser, paraplaner
+g, vp, adviser
+g, manager, executive
+g, ceo, manager
+g, ceo, vp
+g, admin, ceo
